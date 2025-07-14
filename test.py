@@ -25,9 +25,6 @@ for line in reader:
 
 print ("matching words: ", count)
 
-
-
-
     #have to have e be in the fourth letter
     #TID are not in the word
     #R is in the word
