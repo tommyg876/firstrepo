@@ -1,4 +1,5 @@
-list_demo = ['tommy', 'paddy', 'harry']
+list = ['tommy', 'software', 'bourgeois', 'andrewtate']
 
-for name in list_demo:
-    print (name)
+num_list = min (3, len(list))
+for i in range (num_list):
+    print list[i]
