@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tommy Gregory</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #f5f6fa;
+            font-family: 'Inter', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto 0 auto;
+            padding: 32px 24px 0 24px;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .project-list,
+        .writing-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-list li,
+        .writing-list li {
+            margin-bottom: 14px;
+        }
+
+        .modern-btn {
+            display: inline-block;
+            padding: 0.7em 1.6em;
+            background: #f5f6fa;
+            color: #222;
+            border: 1.5px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+            transition: background 0.15s, box-shadow 0.15s, border 0.15s;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .modern-btn:hover,
+        .modern-btn:focus {
+            background: #e9eaf0;
+            border-color: #bdbdbd;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 32px 0 16px 0;
+            text-align: center;
+            color: #888;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hi, I'm Tommy</h1>
+        <section>
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <span>Project One</span>
+                    <a href="#" class="modern-btn">View</a>
+                </li>
+                <li>
+                    <span>Project Two</span>
+                    <a href="#" class="modern-btn">View</a>
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <section>
+            <h2>Writings</h2>
+            <ul class="writing-list">
+                <li>
+                    <span>How I Built My Website</span>
+                    <a href="#" class="modern-btn">Read</a>
+                </li>
+                <li>
+                    <span>Thoughts on Design</span>
+                    <a href="#" class="modern-btn">Read</a>
+                </li>
+                <!-- Add more writings as needed -->
+            </ul>
+        </section>
+        <div style="margin-top: 24px;">&copy; 2024 Tommy Gregory</div>
+    </footer>
+</body>
+
+</html>
